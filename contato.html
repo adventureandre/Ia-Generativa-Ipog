@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>Contato | IA Generativa: Impacto em RH, Finanças e Operações</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação Principal -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GenAI Impact</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="fundamentos.html">Fundamentos</a></li>
+                <li><a href="rh.html">RH</a></li>
+                <li><a href="financas.html">Finanças</a></li>
+                <li><a href="operacoes.html">Operações</a></li>
+                <li><a href="casos-uso.html">Casos de Uso</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Entre em Contato</h1>
+            <p class="subtitle fade-in delay-1">Converse com nossos especialistas sobre como a IA Generativa pode transformar sua organização</p>
+        </div>
+    </header>
+
+    <!-- Seção Principal de Contato -->
+    <section id="contato-principal" class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container fade-in">
+                    <h2>Fale Conosco</h2>
+                    <p>Preencha o formulário abaixo e um de nossos especialistas entrará em contato para uma conversa personalizada sobre suas necessidades específicas.</p>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo*</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa">Empresa*</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="cargo">Cargo*</label>
+                            <input type="text" id="cargo" name="cargo" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail Corporativo*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="interesse">Principal Área de Interesse*</label>
+                            <select id="interesse" name="interesse" required>
+                                <option value="">Selecione uma opção</option>
+                                <option value="rh">IA Generativa em RH</option>
+                                <option value="financas">IA Generativa em Finanças</option>
+                                <option value="operacoes">IA Generativa em Operações</option>
+                                <option value="estrategia">Estratégia Geral de IA</option>
+                                <option value="implementacao">Implementação e Governança</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="mensagem">Sua Mensagem*</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="politica" name="politica" required>
+                                <label for="politica">Li e concordo com a <a href="#">Política de Privacidade</a>*</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container fade-in delay-2">
+                    <div class="contact-card">
+                        <h3>Agende uma Consultoria</h3>
+                        <p>Prefere uma conversa direta? Agende uma call com um dos nossos especialistas para discutir suas necessidades específicas.</p>
+                        <a href="#" class="btn secondary-btn">Agendar Horário</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Outros Canais</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-detail">
+                                    <strong>E-mail:</strong>
+                                    <a href="mailto:contato@genaiimpact.com">contato@genaiimpact.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-detail">
+                                    <strong>Telefone:</strong>
+                                    <a href="tel:+551145678900">+55 (11) 4567-8900</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">🏢</div>
+                                <div class="contact-detail">
+                                    <strong>Endereço:</strong>
+                                    <address>
+                                        Av. Paulista, 1000, 15º andar<br>
+                                        São Paulo - SP, 01310-100
+                                    </address>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Siga-nos</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="LinkedIn">LinkedIn</a>
+                            <a href="#" class="social-icon" title="Twitter">Twitter</a>
+                            <a href="#" class="social-icon" title="YouTube">YouTube</a>
+                            <a href="#" class="social-icon" title="Instagram">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section id="faq" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title slide-in-left">Perguntas Frequentes</h2>
+            
+            <div class="accordion-container fade-in">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Quanto tempo leva para implementar uma solução de IA Generativa?</h3>
+                        <div class="accordion-icon">+</div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>O tempo de implementação varia significativamente com base na complexidade do caso de uso e da maturidade digital da organização. Projetos piloto podem ser implementados em poucas semanas, enquanto implementações corporativas mais abrangentes geralmente levam de 3 a 9 meses. Nossa abordagem é focada em valor incremental, com entregas rápidas de resultados enquanto construímos soluções mais robustas.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Qual investimento é necessário para projetos de GenAI?</h3>
+                        <div class="accordion-icon">+</div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>O investimento varia conforme o escopo e a complexidade do projeto. Oferecemos opções que vão desde workshops de avaliação de oportunidades a partir de R$ 30 mil até implementações corporativas abrangentes. Para cada cliente, desenvolvemos um business case detalhado que permite visualizar claramente o retorno sobre o investimento antes de iniciar implementações em larga escala.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Como garantir a segurança e conformidade com soluções de GenAI?</h3>
+                        <div class="accordion-icon">+</div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Segurança e conformidade são prioridades em todas as nossas implementações. Trabalhamos com padrões rigorosos de segurança de dados, incluindo processamento local quando necessário, e implementamos frameworks de governança robustos para uso responsável da IA. Todas as nossas soluções são projetadas para atender aos requisitos regulatórios aplicáveis, como LGPD no Brasil e GDPR na Europa, e incluem mecanismos para auditoria e rastreabilidade.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>É preciso ter uma equipe de cientistas de dados para implementar GenAI?</h3>
+                        <div class="accordion-icon">+</div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Não necessariamente. Embora expertise técnica seja valiosa, nosso modelo de implementação foi projetado para não depender exclusivamente de cientistas de dados internos. Oferecemos soluções que combinam nossos especialistas técnicos com seus especialistas de negócios, criando uma abordagem híbrida. Também fornecemos programas de capacitação para desenvolver competências internas ao longo do tempo, permitindo que sua equipe assuma gradualmente mais responsabilidades na gestão das soluções.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>Como medir o ROI de iniciativas de IA Generativa?</h3>
+                        <div class="accordion-icon">+</div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Desenvolvemos frameworks abrangentes de medição de ROI que consideram tanto benefícios tangíveis quanto intangíveis. Para cada implementação, definimos KPIs específicos alinhados aos objetivos de negócio, como redução de custos, aumento de produtividade, melhoria na experiência do cliente ou aceleração de inovação. Nossa abordagem inclui a definição de linhas de base claras e mecanismos de medição contínua para demonstrar valor ao longo do tempo, não apenas após a conclusão do projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CTA -->
+    <section id="cta" class="section">
+        <div class="container">
+            <div class="cta-container text-center fade-in">
+                <h2>Pronto para Começar sua Jornada com GenAI?</h2>
+                <p>Transforme sua organização aproveitando o poder da Inteligência Artificial Generativa. Nossos especialistas estão prontos para guiá-lo em cada etapa do caminho.</p>
+                <div class="cta-buttons">
+                    <a href="#contato-principal" class="btn primary-btn">Falar com um Especialista</a>
+                    <a href="casos-uso.html" class="btn secondary-btn">Ver Casos de Sucesso</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="map-section">
+        <div class="map-container">
+            <!-- Substituir por elemento real de mapa quando for implementar -->
+            <div class="map-placeholder">
+                <p>Mapa de Localização</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>GenAI Impact</h4>
+                    <p>Transformando empresas com o poder da IA Generativa para resultados exponenciais.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="fundamentos.html">Fundamentos</a></li>
+                        <li><a href="rh.html">RH</a></li>
+                        <li><a href="financas.html">Finanças</a></li>
+                        <li><a href="operacoes.html">Operações</a></li>
+                        <li><a href="casos-uso.html">Casos de Uso</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="referencias.html">Referências</a></li>
+                        <li><a href="glossario.html">Glossário</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 GenAI Impact | IA Generativa Impactando Negócios.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/intersection.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Accordion functionality
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const accordion = this.parentElement;
+                    const accordionContent = this.nextElementSibling;
+                    const accordionIcon = this.querySelector('.accordion-icon');
+                    
+                    // Toggle active class
+                    accordion.classList.toggle('active');
+                    
+                    // Toggle content display
+                    if (accordion.classList.contains('active')) {
+                        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                        accordionIcon.textContent = '-';
+                    } else {
+                        accordionContent.style.maxHeight = '0';
+                        accordionIcon.textContent = '+';
+                    }
+                });
+            });
+            
+            // Form submission handling
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Simple validation feedback
+                    const submitBtn = this.querySelector('button[type="submit"]');
+                    submitBtn.textContent = 'Enviando...';
+                    
+                    // Simulate form submission
+                    setTimeout(() => {
+                        // Reset form
+                        contactForm.reset();
+                        
+                        // Show success message
+                        alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
+                        
+                        // Reset button text
+                        submitBtn.textContent = 'Enviar Mensagem';
+                    }, 1500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

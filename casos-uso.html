@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>Casos de Uso de IA Generativa | IA Generativa: Impacto em RH, Finanças e Operações</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação Principal -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GenAI Impact</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="fundamentos.html">Fundamentos</a></li>
+                <li><a href="rh.html">RH</a></li>
+                <li><a href="financas.html">Finanças</a></li>
+                <li><a href="operacoes.html">Operações</a></li>
+                <li><a href="casos-uso.html" class="active">Casos de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Casos de Uso de IA Generativa</h1>
+            <p class="subtitle fade-in delay-1">Exemplos reais de transformação e resultados mensuráveis nas principais áreas de negócio</p>
+        </div>
+    </header>
+
+    <!-- Filtro de Casos de Uso -->
+    <section id="filtro" class="section">
+        <div class="container">
+            <div class="filter-container fade-in">
+                <h2 class="filter-title">Filtrar Casos de Uso</h2>
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <h3>Por Área</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">Todas</button>
+                            <button class="filter-btn" data-filter="rh">RH</button>
+                            <button class="filter-btn" data-filter="financas">Finanças</button>
+                            <button class="filter-btn" data-filter="operacoes">Operações</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <h3>Por Indústria</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">Todas</button>
+                            <button class="filter-btn" data-filter="manufatura">Manufatura</button>
+                            <button class="filter-btn" data-filter="financeiro">Financeiro</button>
+                            <button class="filter-btn" data-filter="saude">Saúde</button>
+                            <button class="filter-btn" data-filter="varejo">Varejo</button>
+                            <button class="filter-btn" data-filter="tecnologia">Tecnologia</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <h3>Por Complexidade</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">Todas</button>
+                            <button class="filter-btn" data-filter="simples">Simples</button>
+                            <button class="filter-btn" data-filter="media">Média</button>
+                            <button class="filter-btn" data-filter="complexa">Complexa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards de Casos de Uso -->
+    <section id="casos" class="section alt-bg">
+        <div class="container">
+            <div class="cases-grid">
+                <!-- Caso 1 -->
+                <div class="case-card fade-in" data-categories="rh financeiro media">
+                    <div class="case-header">
+                        <h3>Transformação do Recrutamento com GenAI</h3>
+                        <span class="case-tag">RH</span>
+                        <span class="case-tag">Financeiro</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-jpmorgan.jpg" alt="JP Morgan Chase" class="company-logo">
+                        <span>JP Morgan Chase</span>
+                    </div>
+                    <div class="case-content">
+                        <p>JP Morgan transformou seu processo de recrutamento com um assistente de IA Generativa que verifica currículos, gera descrições de vagas inclusivas e conduz triagem inicial de candidatos.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">63%</div>
+                                <div class="result-label">redução no tempo de contratação</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">41%</div>
+                                <div class="result-label">aumento na diversidade de talentos</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+
+                <!-- Caso 2 -->
+                <div class="case-card fade-in delay-1" data-categories="financas varejo media">
+                    <div class="case-header">
+                        <h3>Previsão Financeira Aumentada</h3>
+                        <span class="case-tag">Finanças</span>
+                        <span class="case-tag">Varejo</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-walmart.jpg" alt="Walmart" class="company-logo">
+                        <span>Walmart</span>
+                    </div>
+                    <div class="case-content">
+                        <p>Walmart implementou uma plataforma de GenAI para previsão financeira que integra dados estruturados e não estruturados, permitindo planejamentos mais precisos e adaptáveis em tempo real.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">37%</div>
+                                <div class="result-label">melhoria na acurácia de previsões</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">$420M</div>
+                                <div class="result-label">economia anual com melhor alocação de capital</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+
+                <!-- Caso 3 -->
+                <div class="case-card fade-in delay-2" data-categories="operacoes manufatura complexa">
+                    <div class="case-header">
+                        <h3>Manutenção Preditiva Avançada</h3>
+                        <span class="case-tag">Operações</span>
+                        <span class="case-tag">Manufatura</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-bmw.jpg" alt="BMW" class="company-logo">
+                        <span>BMW Group</span>
+                    </div>
+                    <div class="case-content">
+                        <p>BMW Group implementou um sistema de manutenção preditiva baseado em GenAI que analisa dados de sensores, imagens, sons e relatórios técnicos para prever falhas de equipamentos com precisão sem precedentes.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">72%</div>
+                                <div class="result-label">redução em paradas não planejadas</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">23%</div>
+                                <div class="result-label">aumento em produtividade geral</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+
+                <!-- Caso 4 -->
+                <div class="case-card fade-in delay-3" data-categories="rh tecnologia simples">
+                    <div class="case-header">
+                        <h3>Desenvolvimento de Talentos Personalizado</h3>
+                        <span class="case-tag">RH</span>
+                        <span class="case-tag">Tecnologia</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-microsoft.jpg" alt="Microsoft" class="company-logo">
+                        <span>Microsoft</span>
+                    </div>
+                    <div class="case-content">
+                        <p>Microsoft criou um sistema de desenvolvimento de talentos baseado em IA Generativa que cria planos de aprendizado personalizados e gera conteúdo de treinamento adaptado ao estilo de cada colaborador.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">82%</div>
+                                <div class="result-label">taxa de conclusão de treinamentos</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">26%</div>
+                                <div class="result-label">melhoria em retenção de talentos-chave</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+
+                <!-- Caso 5 -->
+                <div class="case-card fade-in delay-4" data-categories="financas financeiro complexa">
+                    <div class="case-header">
+                        <h3>Detecção de Fraude em Tempo Real</h3>
+                        <span class="case-tag">Finanças</span>
+                        <span class="case-tag">Financeiro</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-visa.jpg" alt="Visa" class="company-logo">
+                        <span>Visa</span>
+                    </div>
+                    <div class="case-content">
+                        <p>Visa implementou um sistema de detecção de fraudes baseado em GenAI que analisa padrões complexos e comportamentos de transações em tempo real, adaptando-se continuamente a novas técnicas de fraude.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">55%</div>
+                                <div class="result-label">redução em falsos positivos</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">$1.2B</div>
+                                <div class="result-label">economia estimada em fraudes evitadas</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+
+                <!-- Caso 6 -->
+                <div class="case-card fade-in delay-5" data-categories="operacoes saude media">
+                    <div class="case-header">
+                        <h3>Otimização da Cadeia de Suprimentos Farmacêutica</h3>
+                        <span class="case-tag">Operações</span>
+                        <span class="case-tag">Saúde</span>
+                    </div>
+                    <div class="case-company">
+                        <img src="img/case-pfizer.jpg" alt="Pfizer" class="company-logo">
+                        <span>Pfizer</span>
+                    </div>
+                    <div class="case-content">
+                        <p>Pfizer revolucionou sua cadeia de suprimentos com GenAI para prever demanda de medicamentos, otimizar inventário e antecipar gargalos logísticos, mesmo em condições de mercado altamente voláteis.</p>
+                        <div class="case-results">
+                            <div class="result-item">
+                                <div class="result-number">31%</div>
+                                <div class="result-label">redução em inventário sem comprometer disponibilidade</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">47%</div>
+                                <div class="result-label">menos rupturas de estoque</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-footer">
+                        <a href="#" class="case-link">Ver estudo de caso completo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mostrar mais casos -->
+            <div class="load-more-container text-center fade-in">
+                <button class="load-more-btn">Carregar Mais Casos de Uso</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Implementação Própria -->
+    <section id="implemente" class="section">
+        <div class="container">
+            <h2 class="section-title slide-in-left">Implemente seu Próprio Caso de Sucesso</h2>
+            
+            <div class="implementation-grid">
+                <div class="implementation-content fade-in">
+                    <p>Inspirado pelos casos de uso demonstrados? Sua organização pode ser o próximo caso de sucesso em IA Generativa. Nossa equipe de especialistas pode ajudá-lo a:</p>
+                    
+                    <ul class="feature-list large">
+                        <li><strong>Identificar Oportunidades:</strong> Mapear processos e áreas com maior potencial de impacto em seu contexto específico.</li>
+                        <li><strong>Desenvolver Provas de Conceito:</strong> Implementar pilotos rápidos para validar o valor e construir confiança na tecnologia.</li>
+                        <li><strong>Criar Roadmap:</strong> Estabelecer um plano estruturado de implementação alinhado com seus objetivos estratégicos.</li>
+                        <li><strong>Escalar com Sucesso:</strong> Expandir as implementações bem-sucedidas para toda a organização com governança adequada.</li>
+                    </ul>
+                    
+                    <div class="btn-container">
+                        <a href="contato.html" class="btn primary-btn">Agende uma Consultoria</a>
+                        <a href="#" class="btn secondary-btn">Baixar Guia de Implementação</a>
+                    </div>
+                </div>
+                
+                <div class="implementation-image fade-in delay-2">
+                    <img src="img/implementation-cycle.jpg" alt="Ciclo de Implementação de GenAI">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section alt-bg">
+        <div class="container">
+            <div class="newsletter-container text-center fade-in">
+                <h2>Receba Novos Casos de Uso Mensalmente</h2>
+                <p>Inscreva-se em nossa newsletter para receber estudos de caso exclusivos, insights de especialistas e atualizações sobre as mais recentes aplicações de IA Generativa nos negócios.</p>
+                
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail profissional" required>
+                    <button type="submit" class="btn primary-btn">Inscrever-se</button>
+                </form>
+                
+                <p class="newsletter-disclaimer">Respeitamos sua privacidade. Você pode cancelar sua inscrição a qualquer momento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>GenAI Impact</h4>
+                    <p>Transformando empresas com o poder da IA Generativa para resultados exponenciais.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="fundamentos.html">Fundamentos</a></li>
+                        <li><a href="rh.html">RH</a></li>
+                        <li><a href="financas.html">Finanças</a></li>
+                        <li><a href="operacoes.html">Operações</a></li>
+                        <li><a href="casos-uso.html">Casos de Uso</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="referencias.html">Referências</a></li>
+                        <li><a href="glossario.html">Glossário</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 GenAI Impact | IA Generativa Impactando Negócios.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/intersection.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filtro de casos de uso
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const caseCards = document.querySelectorAll('.case-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons in the same group
+                    const parentGroup = this.closest('.filter-group');
+                    parentGroup.querySelectorAll('.filter-btn').forEach(b => {
+                        b.classList.remove('active');
+                    });
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get all active filters
+                    const activeFilters = {};
+                    document.querySelectorAll('.filter-group').forEach(group => {
+                        const activeBtn = group.querySelector('.filter-btn.active');
+                        const filter = activeBtn.getAttribute('data-filter');
+                        if (filter !== 'all') {
+                            activeFilters[group.querySelector('h3').textContent.toLowerCase()] = filter;
+                        }
+                    });
+                    
+                    // Filter case cards
+                    caseCards.forEach(card => {
+                        const categories = card.getAttribute('data-categories').split(' ');
+                        let shouldShow = true;
+                        
+                        // Check if card matches all active filters
+                        Object.values(activeFilters).forEach(filter => {
+                            if (!categories.includes(filter)) {
+                                shouldShow = false;
+                            }
+                        });
+                        
+                        if (shouldShow) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Load more button (simulated functionality)
+            const loadMoreBtn = document.querySelector('.load-more-btn');
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function() {
+                    this.textContent = 'Carregando...';
+                    
+                    // Simulate loading delay
+                    setTimeout(() => {
+                        this.textContent = 'Todos os casos carregados';
+                        this.disabled = true;
+                    }, 1500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

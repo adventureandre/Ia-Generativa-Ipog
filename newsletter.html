@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>Newsletter | IA Generativa: Impacto em RH, Finanças e Operações</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação Principal -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GenAI Impact</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="fundamentos.html">Fundamentos</a></li>
+                <li><a href="rh.html">RH</a></li>
+                <li><a href="financas.html">Finanças</a></li>
+                <li><a href="operacoes.html">Operações</a></li>
+                <li><a href="casos-uso.html">Casos de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header/Page Title -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Newsletter GenAI Impact</h1>
+            <p class="subtitle fade-in delay-1">Mantenha-se atualizado sobre os avanços da IA Generativa e seu impacto nos negócios</p>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <section class="section">
+        <div class="container">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <div class="newsletter-benefits slide-in-left">
+                        <h2>Por que assinar nossa newsletter?</h2>
+                        <ul class="benefits-list">
+                            <li>
+                                <div class="benefit-icon">📊</div>
+                                <div class="benefit-text">
+                                    <strong>Casos de uso reais</strong>
+                                    <p>Exemplos práticos e resultados mensuráveis da implementação de IA Generativa em empresas de diversos portes e setores.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="benefit-icon">🔍</div>
+                                <div class="benefit-text">
+                                    <strong>Análises aprofundadas</strong>
+                                    <p>Insights detalhados sobre como a IA Generativa está transformando RH, Finanças e Operações nas organizações.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="benefit-icon">🚀</div>
+                                <div class="benefit-text">
+                                    <strong>Tendências emergentes</strong>
+                                    <p>Fique à frente da curva com informações sobre os desenvolvimentos mais recentes em tecnologia GenAI e suas aplicações.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="benefit-icon">🔧</div>
+                                <div class="benefit-text">
+                                    <strong>Guias e tutoriais</strong>
+                                    <p>Recursos práticos para ajudar sua equipe a começar a implementar soluções de IA Generativa em diversos departamentos.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="benefit-icon">🎯</div>
+                                <div class="benefit-text">
+                                    <strong>Métricas e KPIs</strong>
+                                    <p>Aprenda como medir o impacto da IA Generativa nos resultados de negócio e justificar investimentos.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="newsletter-form-container slide-in-right">
+                        <div class="newsletter-form">
+                            <h3>Inscreva-se gratuitamente</h3>
+                            <p>Receba atualizações quinzenais com conteúdo exclusivo sobre IA Generativa aplicada aos negócios.</p>
+                            
+                            <form id="newsletter-signup" class="signup-form">
+                                <div class="form-group">
+                                    <label for="name">Nome completo</label>
+                                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">E-mail corporativo</label>
+                                    <input type="email" id="email" name="email" placeholder="seu.email@empresa.com" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="company">Empresa</label>
+                                    <input type="text" id="company" name="company" placeholder="Nome da sua empresa">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="job-title">Cargo</label>
+                                    <input type="text" id="job-title" name="job-title" placeholder="Seu cargo atual">
+                                </div>
+                                
+                                <div class="form-group checkbox-group">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" name="interests" value="rh"> Recursos Humanos
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" name="interests" value="financas"> Finanças
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" name="interests" value="operacoes"> Operações
+                                    </label>
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" name="interests" value="estrategia"> Estratégia
+                                    </label>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="checkbox-container terms-checkbox">
+                                        <input type="checkbox" name="terms" required>
+                                        <span>Concordo com os <a href="#">termos de uso</a> e <a href="#">política de privacidade</a></span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn primary-btn full-width-btn">Assinar Newsletter</button>
+                            </form>
+                            
+                            <div class="form-note">
+                                <p>Respeitamos sua privacidade. Você pode cancelar sua inscrição a qualquer momento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="newsletter-samples fade-in">
+                    <h3>Veja edições anteriores</h3>
+                    <div class="samples-container">
+                        <div class="newsletter-sample">
+                            <div class="sample-date">Outubro 2023</div>
+                            <h4>Como a GenAI está redefinindo o recrutamento e seleção</h4>
+                            <p>Uma análise das principais ferramentas de IA para triagem de candidatos e as métricas de melhoria em tempo e qualidade das contratações.</p>
+                            <a href="#" class="sample-link">Ler edição completa</a>
+                        </div>
+                        
+                        <div class="newsletter-sample">
+                            <div class="sample-date">Setembro 2023</div>
+                            <h4>Automação inteligente em processos financeiros</h4>
+                            <p>Case study: Como a implementação de IA Generativa em análise de documentos financeiros reduziu o tempo de processamento em 78%.</p>
+                            <a href="#" class="sample-link">Ler edição completa</a>
+                        </div>
+                        
+                        <div class="newsletter-sample">
+                            <div class="sample-date">Agosto 2023</div>
+                            <h4>Previsão de demanda com IA Generativa</h4>
+                            <p>O novo paradigma em planejamento operacional: modelos generativos que simulam múltiplos cenários para otimização de recursos.</p>
+                            <a href="#" class="sample-link">Ler edição completa</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials fade-in delay-2">
+                    <h3>O que nossos leitores dizem</h3>
+                    <div class="testimonial-container">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"A newsletter GenAI Impact tem sido fundamental para manter nossa equipe de RH atualizada sobre as melhores práticas de IA. Já implementamos duas das ferramentas recomendadas com excelentes resultados."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <strong>Maria Silva</strong>
+                                    <span>Diretora de RH, TechCorp</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"O conteúdo é extremamente prático e focado em resultados. Os casos de uso compartilhados nos deram insights valiosos para implementar IA em nossos processos financeiros."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <strong>Carlos Mendes</strong>
+                                    <span>CFO, Indústrias Progresso</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"Cada edição traz um equilíbrio perfeito entre teoria e aplicação prática. É raro encontrar conteúdo tão relevante e acionável sobre IA Generativa."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <strong>Ana Ferreira</strong>
+                                    <span>COO, Logística Express</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>GenAI Impact</h3>
+                    <p>Explorando o impacto transformador da IA Generativa em RH, Finanças e Operações para potencializar resultados de negócios.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="fundamentos.html">Fundamentos</a></li>
+                        <li><a href="rh.html">RH</a></li>
+                        <li><a href="financas.html">Finanças</a></li>
+                        <li><a href="operacoes.html">Operações</a></li>
+                        <li><a href="casos-uso.html">Casos de Uso</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="glossario.html">Glossário</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="referencias.html">Referências</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Inscreva-se</h4>
+                    <p>Receba atualizações sobre IA Generativa e seus impactos nos negócios.</p>
+                    <a href="newsletter.html" class="btn secondary-btn">Assinar Newsletter</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 GenAI Impact. Todos os direitos reservados.</p>
+                <p>Desenvolvido como parte do projeto educacional sobre IA Generativa.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/intersection.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

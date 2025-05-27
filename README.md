@@ -1,12 +1,21 @@
-# Guia de Uso - Página IA Generativa: Impacto em RH, Finanças e Operações
+# GenAI Impact - Impacto da IA Generativa em RH, Finanças e Operações
 
-Este documento fornece instruções detalhadas sobre a estrutura, uso e personalização da página web criada com HTML, CSS e JavaScript puro.
+Site educativo que explora o impacto transformador das tecnologias de IA Generativa nas áreas de RH, Finanças e Operações de negócios.
 
 ## Estrutura de Arquivos
 
 ```
 /ia-generativa-html-puro/
-├── index.html           # Arquivo HTML principal com todo o conteúdo
+├── index.html           # Página inicial do site
+├── fundamentos.html     # Página sobre fundamentos da IA Generativa
+├── rh.html              # Página sobre impacto em RH
+├── financas.html        # Página sobre impacto em Finanças
+├── operacoes.html       # Página sobre impacto em Operações
+├── casos-uso.html       # Página com casos de uso práticos
+├── contato.html         # Página de formulário de contato
+├── referencias.html     # Página com fontes e referências
+├── glossario.html       # Glossário de termos técnicos
+├── newsletter.html      # Página para cadastro na newsletter
 ├── css/
 │   ├── styles.css       # Estilos gerais e layout
 │   └── animations.css   # Animações e efeitos visuais
@@ -14,8 +23,11 @@ Este documento fornece instruções detalhadas sobre a estrutura, uso e personal
 │   ├── main.js          # Script principal e inicialização
 │   ├── animations.js    # Funções para animações e efeitos
 │   └── intersection.js  # Observador de interseção para animações de scroll
-├── img/                 # Pasta para imagens (vazia no momento)
-└── estrutura.md         # Documentação da estrutura do projeto
+├── img/                 # Pasta contendo imagens e ilustrações
+│   ├── hero/            # Imagens para cabeçalhos
+│   ├── icons/           # Ícones SVG
+│   └── illustrations/   # Ilustrações SVG para as páginas
+└── estrutura.md         # Documentação inicial da estrutura do projeto
 ```
 
 ## Tecnologias Utilizadas
@@ -38,6 +50,42 @@ Este documento fornece instruções detalhadas sobre a estrutura, uso e personal
 1. Descompacte o arquivo `ia-generativa-html-puro.zip`
 2. Abra o arquivo `index.html` em qualquer navegador moderno
 3. Para publicar online, basta fazer upload de toda a pasta para qualquer servidor web
+
+## Como Executar o Site
+
+### Método 1: Script de Servidor Integrado
+O projeto inclui um script para iniciar rapidamente um servidor local:
+
+1. Abra um terminal na pasta raiz do projeto
+2. Execute o comando:
+   ```bash
+   ./start-server.sh
+   ```
+3. Por padrão, o servidor iniciará na porta 8000. Para especificar outra porta, adicione-a como argumento:
+   ```bash
+   ./start-server.sh 9000
+   ```
+4. Acesse o site no navegador em `http://localhost:8000` (ou na porta especificada)
+
+### Método 2: Usando Python
+Se o script não funcionar, você pode iniciar manualmente um servidor Python:
+
+Para Python 3:
+```bash
+python3 -m http.server
+```
+
+Para Python 2:
+```bash
+python -m SimpleHTTPServer
+```
+
+### Método 3: Usando Live Server no VS Code
+Se você estiver usando o Visual Studio Code:
+
+1. Instale a extensão "Live Server"
+2. Clique com o botão direito em `index.html`
+3. Selecione "Open with Live Server"
 
 ## Personalização
 
@@ -97,6 +145,22 @@ As animações são definidas no arquivo `css/animations.css`. Para modificar:
 1. Localize a animação desejada (por exemplo, `@keyframes fadeIn`)
 2. Ajuste os parâmetros conforme necessário
 3. Para criar uma nova animação, siga o mesmo padrão e adicione uma nova classe correspondente
+
+## Estrutura de Conteúdo
+
+O site é organizado nas seguintes seções principais:
+
+1. **Página Inicial** - Visão geral do impacto da IA Generativa nos negócios
+2. **Fundamentos** - Conceitos básicos e tecnologias de IA Generativa
+3. **Páginas Específicas** - Impacto detalhado em cada área:
+   - RH (Recursos Humanos)
+   - Finanças
+   - Operações
+4. **Casos de Uso** - Exemplos práticos e estudos de caso
+5. **Glossário** - Termos técnicos relacionados à IA Generativa
+6. **Newsletter** - Cadastro para atualizações
+7. **Contato** - Formulário para comunicação
+8. **Referências** - Fontes e materiais adicionais
 
 ## Compatibilidade
 

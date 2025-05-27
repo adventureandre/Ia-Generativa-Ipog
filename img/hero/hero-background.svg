@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#164e63;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2dd4bf;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#22d3ee;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#grad1)" />
+  
+  <!-- Abstract Network Pattern -->
+  <g opacity="0.15">
+    <circle cx="200" cy="100" r="5" fill="#f1f5f9" />
+    <circle cx="400" cy="200" r="5" fill="#f1f5f9" />
+    <circle cx="600" cy="150" r="5" fill="#f1f5f9" />
+    <circle cx="800" cy="250" r="5" fill="#f1f5f9" />
+    <circle cx="1000" cy="150" r="5" fill="#f1f5f9" />
+    <circle cx="300" cy="300" r="5" fill="#f1f5f9" />
+    <circle cx="500" cy="400" r="5" fill="#f1f5f9" />
+    <circle cx="700" cy="350" r="5" fill="#f1f5f9" />
+    <circle cx="900" cy="450" r="5" fill="#f1f5f9" />
+    <circle cx="200" cy="500" r="5" fill="#f1f5f9" />
+    <circle cx="400" cy="450" r="5" fill="#f1f5f9" />
+    <circle cx="600" cy="500" r="5" fill="#f1f5f9" />
+    <circle cx="800" cy="470" r="5" fill="#f1f5f9" />
+    <circle cx="1000" cy="500" r="5" fill="#f1f5f9" />
+    <!-- Connections -->
+    <path d="M200,100 L400,200 L600,150 L800,250 L1000,150" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M300,300 L500,400 L700,350 L900,450" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M200,500 L400,450 L600,500 L800,470 L1000,500" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M200,100 L300,300 L200,500" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M400,200 L500,400 L400,450" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M600,150 L700,350 L600,500" stroke="#f1f5f9" stroke-width="1" fill="none" />
+    <path d="M800,250 L900,450 L800,470" stroke="#f1f5f9" stroke-width="1" fill="none" />
+  </g>
+  
+  <!-- Central Element -->
+  <g transform="translate(600, 300)">
+    <circle cx="0" cy="0" r="100" fill="url(#grad2)" />
+    <circle cx="0" cy="0" r="70" fill="#0f172a" opacity="0.5" />
+    <path d="M-40,-20 L-40,20 L40,20 L40,-20 Z" fill="none" stroke="#f1f5f9" stroke-width="5" />
+    <path d="M-20,-40 L0,-20 L20,-40" stroke="#f1f5f9" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-20,40 L0,20 L20,40" stroke="#f1f5f9" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="200" r="50" fill="url(#grad2)" opacity="0.3" />
+  <circle cx="1000" cy="400" r="70" fill="url(#grad2)" opacity="0.3" />
+  <circle cx="300" cy="500" r="40" fill="url(#grad2)" opacity="0.3" />
+  <circle cx="900" cy="150" r="60" fill="url(#grad2)" opacity="0.3" />
+</svg>
